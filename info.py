@@ -59,11 +59,11 @@ G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
 
 # url shortner
-SHORT_URL = environ.get("https://mdiskshortner.link")
-SHORT_API = environ.get("0a9529a727ff581ecc453f7d6bba634f779f35cc")
+SHORT_URL = environ.get("https://omegalinks.in")
+SHORT_API = environ.get("a4a1cdb9e56af309f5755c96de6f0a3f7f7c480f")
 
 # Others
-IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
+IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "150"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'mkn_bots_updates')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
