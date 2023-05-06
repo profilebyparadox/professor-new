@@ -59,7 +59,7 @@ G_FILTER = bool(environ.get("G_FILTER", True))
 BUTTON_LOCK = environ.get("BUTTON_LOCK", "True")
 
 # url shortner
-SHORT_URL = environ.get("mdiskshortner.link")
+SHORT_URL = environ.get("https://mdiskshortner.link")
 SHORT_API = environ.get("0a9529a727ff581ecc453f7d6bba634f779f35cc")
 
 # Others
